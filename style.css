@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+body {
+  background-color: gainsboro;
+}
+
+#header {
+  background: royalblue;
+  width: 850px;
+  height: 250px;
+  color: white;
+}
+h1 {
+  top: 160px;
+  left: 183px;
+}
+#header p {
+  top: 140px;
+  left: 183px;
+  font-variant: small-caps;
+}
+button {
+  border: 0 1px solid black;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  float: right;
+  top: 104px;
+  right: 10px;
+}
+.profilepic {
+  display: block;
+  height: 150px;
+  width: 150px;
+  top: -100px;
+  left: 20px;
+  z-index: 1;
+}
+.profilepic img {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+}
+li {
+  display: inline;
+  list-style-type: none;
+  float: left;
+  padding: 0;
+  top: -157px;
+  right: -130px;
+}
+li a {
+  display: block;
+  list-style-type: none;
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.5px;
+}
+li a:hover {
+  border-bottom: 2px solid coral;
+  font-weight: bold;
+  position: relative;
+}
+.navbarbg {
+  background-color: white;
+  height: 60px;
+  width: 850px;
+  position: absolute;
+  top: -168px;
+  z-index: -1;
+}
+.aboutyou {
+  height: 150px;
+  width: 328px;
+  background-color: white;
+  top: 320px;
+  position: absolute;
+}
+.aboutyou h4 {
+  width: 328px;
+  height: 28px;
+  background-color: #e8e8e8;
+  top: -22px;
+  left: 0px;
+  padding: 5px;
+  color: dimgray;
+  border-bottom: 1px solid lightgray;
+}
+.aboutinfo {
+  height: 100px;
+  width: 300px;
+  top: -22px;
+  left: 10px;
+  font-size: 15px;
+}
+#location {
+  background-color: white;
+  width: 328px;
+  height: 75px;
+  top: -35px;
+}
+#location h4 {
+  width: 328px;
+  height: 28px;
+  background-color: #e8e8e8;
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  color: dimgray;
+  border-bottom: 1px solid lightgray;
+}
+#location p {
+  top: -8px;
+  left: 10px;
+}
+#photos {
+  background-color: white;
+  width: 328px;
+  height: 280px;
+  top: 146px;
+}
+#photos h4 {
+  width: 328px;
+  height: 28px;
+  background-color: #e8e8e8;
+  top: -22px;
+  left: 0px;
+  padding: 5px;
+  color: dimgray;
+  border-bottom: 1px solid lightgray;
+  position: absolute;
+}
+#photos img {
+  height: 90px;
+  width: 90px;
+}
+.photo1 {
+  left: 10px;
+  top: 40px;
+  position: absolute;
+}
+.photo2 {
+  position: absolute;
+  left: 117px;
+  top: 40px;
+}
+.photo3 {
+  position: absolute;
+  left: 225px;
+  top: 40px;
+}
+.photo4 {
+  position: absolute;
+  left: 10px;
+  top: 150px;
+}
+.photo5 {
+  position: absolute;
+  left: 117px;
+  top: 150px;
+}
+.photo6 {
+  position: absolute;
+  left: 225px;
+  top: 150px;
+}
+#photos a {
+  top: 230px;
+  left: 20px;
+  position: absolute;
+  text-decoration: none;
+  color: royalblue;
+}
+.status1 {
+  height: 200px;
+  width: 512px;
+  background-color: white;
+  top: 320px;
+  left: 338px;
+  position: absolute;
+  padding: 5px;
+}
+.status1 h4 {
+  left: 80px;
+  top: 15px;
+  position: absolute;
+  color: royalblue;
+}
+.thumbnail img {
+  width: 50px;
+  height: 50px;
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  border: 1px solid black;
+}
+.date {
+  position: absolute;
+  left: 80px;
+  top: 55px;
+  font-size: small;
+  color: lightgray;
+}
+.status {
+  height: 150px;
+  width: 450px;
+  left: 15px;
+  top: 61px;
+  font-size: 15px;
+}
+.react {
+  font-size: small;
+}
+.react a {
+  text-decoration: none;
+  color: royalblue;
+}
+.status1 .react {
+  top: -3px;
+  left: 0px;
+}
+.status2 {
+  height: 600px;
+  width: 512px;
+  background-color: white;
+  top: 530px;
+  left: 338px;
+  padding: 5px;
+  position: absolute;
+}
+.status2 h4 {
+  left: 80px;
+  top: 15px;
+  color: royalblue;
+  position: absolute;
+}
+.status2 p {
+  top: 7px;
+  left: 5px;
+  position: absolute;
+}
+.status2 p img {
+  width: 450px;
+  height: 450px;
+  top: 11px;
+  left: 0px;
+}
+.status2 .react {
+  top: 490px;
+  left: 0px;
+}
+#footer {
+  position: absolute;
+  top: 850px;
+  color: gray;
+  font-size: small;
+}
